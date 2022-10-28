@@ -294,15 +294,15 @@
                     <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                         <div class="rounded overflow-hidden">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/img (1).JPG" alt="">
+                                <img class="img-fluid w-100" src="img/pembukaanpj.jpg" alt="">
                                 <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/img (1).JPG" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/pembukaanpj.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="bg-light p-4">
-                                <p class="text-primary fw-medium mb-2">Tema Kegiatan</p>
-                                <h5 class="lh-base mb-0">Nama Kegiatan</a>
+                                <p class="text-primary fw-medium mb-2">Pelaksanaan Uji Kompetensi JFK</p>
+                                <h5 class="lh-base mb-0">Pembukaan Uji Kompetensi Perpindahan Dan Kenaikan Jenjang JFK Oleh Kepala Pusbin JFK</a>
                             </div>
                         </div>
                     </div>
