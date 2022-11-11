@@ -24,7 +24,7 @@
     <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
     <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
     <link href="{{asset('lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') }}" rel="stylesheet" />
+    <link href="{{asset('lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') }}" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{asset('/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -34,6 +34,8 @@
 </head>
 
 <body>
+    <div class="cover" style="background-image:url(img/bgweb.jpg); background-size:100%;">
+
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -43,8 +45,9 @@
         </div>
         <!-- Spinner End -->
 
-
         <!-- Navbar & Hero Start -->
+        {{-- <div lass="cover" style="background-image:url(img/bgweb.jpg); background-size: cover; height: 100vh;">
+        </div> --}}
         <div class="container-fluid container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
@@ -259,7 +262,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Service End -->
 
 
@@ -297,7 +300,7 @@
                                 <img class="img-fluid w-100" src="img/pembukaanpj.jpg" alt="">
                                 <div class="portfolio-overlay">
                                     <a class="btn btn-square btn-outline-light mx-1" href="img/pembukaanpj.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="https://www.bkn.go.id/persetujuan-pindah-jabatan-mempertimbangkan-kualifikasi-pendidikan-pengalaman-dan-kompetensi/" target="_blank"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="bg-light p-4">
@@ -429,7 +432,7 @@
         <!-- Testimonial End -->
 
 
-        <!-- Team Start -->
+        {{-- <!-- Team Start -->
         <div id="team" class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
@@ -485,7 +488,7 @@
                 </div>
             </div>
         </div> -->
-        <!-- Team End -->
+        <!-- Team End --> --}}
 
 
         <!-- Footer Start -->
@@ -515,22 +518,22 @@
                         <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
                         <div class="row g-2">
                             <div class="col-4">
-                                <img class="img-fluid" src="{{asset('img/img (1).png')}}" alt="Image">
+                                <img class="img-fluid" src="{{asset('img/img (1).jpg')}}" alt="Image">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="{{asset('img/img (2).png')}}" alt="Image">
+                                <img class="img-fluid" src="{{asset('img/img (2).jpg')}}" alt="Image">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="{{asset('img/img (3).png')}}" alt="Image">
+                                <img class="img-fluid" src="{{asset('img/img (3).jpg')}}" alt="Image">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="{{asset('img/img (4).png')}}" alt="Image">
+                                <img class="img-fluid" src="{{asset('img/img (4).jpg')}}" alt="Image">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="{{asset('img/img (5).png')}}" alt="Image">
+                                <img class="img-fluid" src="{{asset('img/img (5).jpg')}}" alt="Image">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid" src="{{asset('img/img (6).png')}}" alt="Image">
+                                <img class="img-fluid" src="{{asset('img/img (6).jpg')}}" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -566,7 +569,7 @@
                 </div>
             </div>
         </div>
-
+    </div>
 
         <!-- Footer End -->
 
@@ -574,16 +577,6 @@
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
-
-    <script type="text/javascript">
-
-        $(function () {
-                $('#jadwal').datetimepicker({
-                    locale: 'id',
-                    format: 'L',
-                });
-        });
-    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

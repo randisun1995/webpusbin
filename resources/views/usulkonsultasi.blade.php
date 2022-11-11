@@ -46,13 +46,6 @@
 
     <body>
 
-            <label>Tanggal Lahir</label>
-    <input type="text" class="datepicker">
-
-    <script type="text/javascript">
-    $('.datepicker').datepicker();
-    </script>
-
         <div class="container-xxl bg-white p-0">
             <!-- Spinner Start -->
             <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -196,32 +189,8 @@
                         </div>
                     </div>
                 </div>
-        <!-- Team End -->
 
-        <section class="container">
-            <h3 class="pt-4 pb-2">Bootstrap Datepicker</h3>
-            <form>
-                <div class="row form-group">
-                    <label for="date" class="col-sm-1 col-form-label">Date</label>
-                    <div class="col-sm-4">
-                        <div class="input-group date" id="datepicker">
-                            <input type="text" class="form-control">
-                            <span class="input-group-append">
-                                <span class="input-group-text bg-white">
-                                    <i class="fa fa-calendar"></i>
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </section>
 
-        <script type="text/javascript">
-            $(function() {
-                $('#datepicker').datepicker();
-            });
-        </script>
 
         <!-- Footer Start -->
         <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
